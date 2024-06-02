@@ -5,3 +5,17 @@ pwd
 cd /
 cd var/www
 sudo chmod 777 html
+
+
+pwd
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+curl -SL https://deb.nodesource.com/setup_16.x | sudo -E bash 
+sudo apt install nodejs
+node --version
+git clone https://github.com/Arnab-Koley/repo1.git
+cd repo1
+ls -l
+npm install
+node index.js
