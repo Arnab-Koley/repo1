@@ -6,6 +6,7 @@ cd /
 cd var/www
 sudo chmod 777 html
 
+-------------------------------------------
 
 pwd
 sudo apt-get update
@@ -20,6 +21,8 @@ ls -l
 npm install
 node index.js
 
+------------------------------------------
+
 #!/bin/bash
 apt-get update
 apt-get install -y nginx
@@ -33,6 +36,7 @@ cd repo1
 npm install
 node index.js
 
+--------------------------------------------
 
 cd /
 pwd
@@ -51,5 +55,18 @@ sudo nano default
 cd repo1
 sudo systemctl restart nginx
 node index.js
+
+-----------------------------------------------
+
+sudo nano infy.sh
+
+#!/bin/bash
+while(true)
+do
+echo"inside loop"
+done
+
+sudo chmod 777 infy.sh
+sh infy.sh
 
 
